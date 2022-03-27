@@ -108,12 +108,12 @@ class RPlidar{
         uint16_t calc_cola_dist(uint16_t n_write,uint16_t n_read,uint16_t n_max);
         bool add_sample(uint16_t in_angle_q6,uint16_t in_distance_q2, uint32_t in_time_samp);
         void reset_buffers();
+        void clear_port();
     public:
         RPlidar();
         void begin(uint motor_pin, unsigned long lidar_baudrate=115200);
         bool wait_lidar_response(uint32_t time_out);
         bool wait_lidar_response(uint32_t time_out,uint8_t buffer_target);
-        void clear_port();
 
         bool read_lidar(uint8_t *out_rx_buffer,uint8_t rx_lim, bool synq_byte_en, uint32_t time_out);
         bool read_lidar(uint8_t *out_rx_buffer,uint8_t rx_lim, bool synq_byte_en);
