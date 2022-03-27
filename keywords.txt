@@ -1,0 +1,31 @@
+#######################################
+# Classes, datatypes (KEYWORD1)
+#######################################
+
+RPlidar	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+wait_lidar_response	KEYWORD2
+read_lidar	KEYWORD2
+read_lidar_scan	KEYWORD2
+stop_scan	KEYWORD2
+reset_lidar	KEYWORD2
+
+star_normal_scan	KEYWORD2
+star_force_scan	KEYWORD2
+star_legacy_scan	KEYWORD2
+star_extended_scan	KEYWORD2
+
+get_sample	KEYWORD2
+get_sample_available	KEYWORD2
+
+set_motor_speed	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+lidar_port  LITERAL1
