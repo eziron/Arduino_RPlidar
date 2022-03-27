@@ -15,7 +15,7 @@
 #define serial_buffer_len 132
 
 
-#define max_lidar_sample 8000
+#define max_lidar_sample 1000
 #define lidar_port Serial2
 
 
