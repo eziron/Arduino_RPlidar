@@ -60,7 +60,7 @@ class RPlidar{
         uint16_t n_read_sample = 0;
 
         uint16_t min_distance = 1200;
-        uint16_t max_distance = 48000;
+        uint16_t max_distance = 32000;
         uint8_t scan_mode = 0;
         bool first_sample = false;
         bool first_sample_time = false;
